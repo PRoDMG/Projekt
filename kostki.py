@@ -24,7 +24,7 @@ def Yes():
       comp +=1
    messagebox.showinfo( "Wynik", "Gracz: "+str(player)+"     Komputer: "+str(comp)+"\nTwoj rzut "+str(tplayer)+"\n"+"Przeciwnik wyrzucil "+str(tcomp)+"\n"+message)
 def No():
-   messagebox.showinfo( "Va faill ", "Do zobaczenia")
+   messagebox.showinfo("Do zobaczenia")
    top.quit()
 w = tkinter.Label(top,text = "Zagramy w kosci?\n")
 B1 = tkinter.Button(top, text ="Tak", command = Yes,width = 10)
